@@ -4,15 +4,15 @@
       "git": {
         "name": ".",
         "remote": "git@github.com:googleapis/nodejs-assured-workloads.git",
-        "sha": "0bf8023cf1ad2cc4458fb481098f505d55dbae53"
+        "sha": "ede54a56e79e88643575094fb16fd90a63f52c15"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "8d370db1a5c7f48f5baca6bf1ead32993398b0cd",
-        "internalRef": "331868116"
+        "sha": "877aadc6daf8968e8a1122cf1186623d11d8bd46",
+        "internalRef": "332039388"
       }
     }
   ],
@@ -78,8 +78,6 @@
     "README.md",
     "api-extractor.json",
     "linkinator.config.json",
-    "package-lock.json.4217149538",
-    "package.json",
     "protos/google/cloud/assuredworkloads/v1beta1/assuredworkloads_v1beta1.proto",
     "protos/protos.d.ts",
     "protos/protos.js",
