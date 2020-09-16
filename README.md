@@ -5,13 +5,13 @@
 # [Assured Workloads for Government: Node.js Client](https://github.com/googleapis/nodejs-assured-workloads)
 
 [![release level](https://img.shields.io/badge/release%20level-beta-yellow.svg?style=flat)](https://cloud.google.com/terms/launch-stages)
-[![npm version](https://img.shields.io/npm/v/assuredworkloads.svg)](https://www.npmjs.org/package/assuredworkloads)
+[![npm version](https://img.shields.io/npm/v/@google-cloud/assured-workloads.svg)](https://www.npmjs.org/package/@google-cloud/assured-workloads)
 [![codecov](https://img.shields.io/codecov/c/github/googleapis/nodejs-assured-workloads/master.svg?style=flat)](https://codecov.io/gh/googleapis/nodejs-assured-workloads)
 
 
 
 
-Assuredworkloads client for Node.js
+Assured Workloads client for Node.js
 
 
 A comprehensive list of changes in each version may be found in
@@ -51,7 +51,7 @@ Google APIs Client Libraries, in [Client Libraries Explained][explained].
 ### Installing the client library
 
 ```bash
-npm install assuredworkloads
+npm install @google-cloud/assured-workloads
 ```
 
 
