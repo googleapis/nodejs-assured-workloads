@@ -3,8 +3,8 @@
     {
       "git": {
         "name": ".",
-        "remote": "git@github.com:googleapis/nodejs-assured-workloads.git",
-        "sha": "ede54a56e79e88643575094fb16fd90a63f52c15"
+        "remote": "https://github.com/googleapis/nodejs-assured-workloads.git",
+        "sha": "ba41dab5b785e43a43e607279b9dd71c211289e8"
       }
     },
     {
@@ -13,6 +13,13 @@
         "remote": "https://github.com/googleapis/googleapis.git",
         "sha": "877aadc6daf8968e8a1122cf1186623d11d8bd46",
         "internalRef": "332039388"
+      }
+    },
+    {
+      "git": {
+        "name": "synthtool",
+        "remote": "https://github.com/googleapis/synthtool.git",
+        "sha": "dba48bb9bc6959c232bec9150ac6313b608fe7bd"
       }
     }
   ],
