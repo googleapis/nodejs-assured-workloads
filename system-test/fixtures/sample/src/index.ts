@@ -16,7 +16,7 @@
 // ** https://github.com/googleapis/gapic-generator-typescript **
 // ** All changes to this file may be overwritten. **
 
-import {AssuredWorkloadsServiceClient} from 'assuredworkloads';
+import {AssuredWorkloadsServiceClient} from '@google-cloud/assured-workloads';
 
 function main() {
   new AssuredWorkloadsServiceClient();
