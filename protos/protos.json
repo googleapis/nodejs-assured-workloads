@@ -360,6 +360,14 @@
                           "options": {
                             "(google.api.field_behavior)": "INPUT_ONLY"
                           }
+                        },
+                        "resourceSettings": {
+                          "rule": "repeated",
+                          "type": "ResourceSettings",
+                          "id": 15,
+                          "options": {
+                            "(google.api.field_behavior)": "INPUT_ONLY"
+                          }
                         }
                       },
                       "nested": {
@@ -455,6 +463,18 @@
                               "options": {
                                 "(google.api.field_behavior)": "IMMUTABLE"
                               }
+                            }
+                          }
+                        },
+                        "ResourceSettings": {
+                          "fields": {
+                            "resourceId": {
+                              "type": "string",
+                              "id": 1
+                            },
+                            "resourceType": {
+                              "type": "ResourceInfo.ResourceType",
+                              "id": 2
                             }
                           }
                         },
