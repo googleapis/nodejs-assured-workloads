@@ -1587,9 +1587,7 @@ export namespace google {
                         CJIS = 2,
                         FEDRAMP_HIGH = 3,
                         FEDRAMP_MODERATE = 4,
-                        US_REGIONAL_ACCESS = 5,
-                        HIPAA = 6,
-                        HITRUST = 7
+                        US_REGIONAL_ACCESS = 5
                     }
                 }
 

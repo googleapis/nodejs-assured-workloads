@@ -2000,8 +2000,6 @@
                                 case 3:
                                 case 4:
                                 case 5:
-                                case 6:
-                                case 7:
                                     break;
                                 }
                             if (message.createTime != null && message.hasOwnProperty("createTime")) {
@@ -2131,14 +2129,6 @@
                             case "US_REGIONAL_ACCESS":
                             case 5:
                                 message.complianceRegime = 5;
-                                break;
-                            case "HIPAA":
-                            case 6:
-                                message.complianceRegime = 6;
-                                break;
-                            case "HITRUST":
-                            case 7:
-                                message.complianceRegime = 7;
                                 break;
                             }
                             if (object.createTime != null) {
@@ -3776,8 +3766,6 @@
                          * @property {number} FEDRAMP_HIGH=3 FEDRAMP_HIGH value
                          * @property {number} FEDRAMP_MODERATE=4 FEDRAMP_MODERATE value
                          * @property {number} US_REGIONAL_ACCESS=5 US_REGIONAL_ACCESS value
-                         * @property {number} HIPAA=6 HIPAA value
-                         * @property {number} HITRUST=7 HITRUST value
                          */
                         Workload.ComplianceRegime = (function() {
                             var valuesById = {}, values = Object.create(valuesById);
@@ -3787,8 +3775,6 @@
                             values[valuesById[3] = "FEDRAMP_HIGH"] = 3;
                             values[valuesById[4] = "FEDRAMP_MODERATE"] = 4;
                             values[valuesById[5] = "US_REGIONAL_ACCESS"] = 5;
-                            values[valuesById[6] = "HIPAA"] = 6;
-                            values[valuesById[7] = "HITRUST"] = 7;
                             return values;
                         })();
     
@@ -3988,8 +3974,6 @@
                                 case 3:
                                 case 4:
                                 case 5:
-                                case 6:
-                                case 7:
                                     break;
                                 }
                             return null;
@@ -4040,14 +4024,6 @@
                             case "US_REGIONAL_ACCESS":
                             case 5:
                                 message.complianceRegime = 5;
-                                break;
-                            case "HIPAA":
-                            case 6:
-                                message.complianceRegime = 6;
-                                break;
-                            case "HITRUST":
-                            case 7:
-                                message.complianceRegime = 7;
                                 break;
                             }
                             return message;
