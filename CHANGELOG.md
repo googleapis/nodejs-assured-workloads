@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.1](https://www.github.com/googleapis/nodejs-assured-workloads/compare/v1.4.0...v1.4.1) (2021-05-07)
+
+
+### Bug Fixes
+
+* **deps:** require google-gax v2.12.0 ([#60](https://www.github.com/googleapis/nodejs-assured-workloads/issues/60)) ([2d79414](https://www.github.com/googleapis/nodejs-assured-workloads/commit/2d79414b862ca6cd91b22be00aea06e166f89b42))
+
 ## [1.4.0](https://www.github.com/googleapis/nodejs-assured-workloads/compare/v1.3.0...v1.4.0) (2021-03-23)
 
 
