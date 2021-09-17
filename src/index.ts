@@ -16,12 +16,13 @@
 // ** https://github.com/googleapis/synthtool **
 // ** All changes to this file may be overwritten. **
 
+import * as v1 from './v1';
 import * as v1beta1 from './v1beta1';
 
 const AssuredWorkloadsServiceClient = v1beta1.AssuredWorkloadsServiceClient;
 type AssuredWorkloadsServiceClient = v1beta1.AssuredWorkloadsServiceClient;
 
-export {v1beta1, AssuredWorkloadsServiceClient};
-export default {v1beta1, AssuredWorkloadsServiceClient};
+export {v1, v1beta1, AssuredWorkloadsServiceClient};
+export default {v1, v1beta1, AssuredWorkloadsServiceClient};
 import * as protos from '../protos/protos';
 export {protos};
