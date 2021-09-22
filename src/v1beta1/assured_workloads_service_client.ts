@@ -415,6 +415,10 @@ export class AssuredWorkloadsServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.updateWorkload(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/assured_workloads_service.update_workload.js</caption>
+   * region_tag:assuredworkloads_update_workload_sample
+   *
    */
   updateWorkload(
     request?: protos.google.cloud.assuredworkloads.v1beta1.IUpdateWorkloadRequest,
@@ -519,6 +523,10 @@ export class AssuredWorkloadsServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.deleteWorkload(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/assured_workloads_service.delete_workload.js</caption>
+   * region_tag:assuredworkloads_delete_workload_sample
+   *
    */
   deleteWorkload(
     request?: protos.google.cloud.assuredworkloads.v1beta1.IDeleteWorkloadRequest,
@@ -620,6 +628,10 @@ export class AssuredWorkloadsServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getWorkload(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/assured_workloads_service.get_workload.js</caption>
+   * region_tag:assuredworkloads_get_workload_sample
+   *
    */
   getWorkload(
     request?: protos.google.cloud.assuredworkloads.v1beta1.IGetWorkloadRequest,
@@ -731,6 +743,10 @@ export class AssuredWorkloadsServiceClient {
    * @example
    * const [operation] = await client.createWorkload(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/assured_workloads_service.create_workload.js</caption>
+   * region_tag:assuredworkloads_create_workload_sample
+   *
    */
   createWorkload(
     request?: protos.google.cloud.assuredworkloads.v1beta1.ICreateWorkloadRequest,
@@ -794,6 +810,10 @@ export class AssuredWorkloadsServiceClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/assured_workloads_service.create_workload.js</caption>
+   * region_tag:assuredworkloads_create_workload_sample
+   *
    */
   async checkCreateWorkloadProgress(
     name: string
@@ -877,6 +897,10 @@ export class AssuredWorkloadsServiceClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/assured_workloads_service.list_workloads.js</caption>
+   * region_tag:assuredworkloads_list_workloads_sample
+   *
    */
   listWorkloads(
     request?: protos.google.cloud.assuredworkloads.v1beta1.IListWorkloadsRequest,
@@ -949,6 +973,10 @@ export class AssuredWorkloadsServiceClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/assured_workloads_service.list_workloads.js</caption>
+   * region_tag:assuredworkloads_list_workloads_sample
+   *
    */
   listWorkloadsStream(
     request?: protos.google.cloud.assuredworkloads.v1beta1.IListWorkloadsRequest,
@@ -962,7 +990,8 @@ export class AssuredWorkloadsServiceClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listWorkloads'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listWorkloads.createStream(
       this.innerApiCalls.listWorkloads as gax.GaxCall,
@@ -1004,6 +1033,10 @@ export class AssuredWorkloadsServiceClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta1/assured_workloads_service.list_workloads.js</caption>
+   * region_tag:assuredworkloads_list_workloads_sample
+   *
    */
   listWorkloadsAsync(
     request?: protos.google.cloud.assuredworkloads.v1beta1.IListWorkloadsRequest,
@@ -1018,7 +1051,8 @@ export class AssuredWorkloadsServiceClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listWorkloads'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listWorkloads.asyncIterate(
       this.innerApiCalls['listWorkloads'] as GaxCall,
