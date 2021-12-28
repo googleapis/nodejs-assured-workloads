@@ -12,5 +12,5 @@
   "name": "assuredworkloads",
   "issue_tracker": "",
   "api_shortname": "assuredworkloads",
-  "library_type": ""
+  "library_type": "GAPIC_AUTO"
 }
