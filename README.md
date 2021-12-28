@@ -4,7 +4,7 @@
 
 # [Assured Workloads for Government: Node.js Client](https://github.com/googleapis/nodejs-assured-workloads)
 
-[![release level](https://img.shields.io/badge/release%20level-beta-yellow.svg?style=flat)](https://cloud.google.com/terms/launch-stages)
+
 [![npm version](https://img.shields.io/npm/v/@google-cloud/assured-workloads.svg)](https://www.npmjs.org/package/@google-cloud/assured-workloads)
 [![codecov](https://img.shields.io/codecov/c/github/googleapis/nodejs-assured-workloads/main.svg?style=flat)](https://codecov.io/gh/googleapis/nodejs-assured-workloads)
 
@@ -121,11 +121,6 @@ _Legacy Node.js versions are supported as a best effort:_
 This library follows [Semantic Versioning](http://semver.org/).
 
 
-
-This library is considered to be in **beta**. This means it is expected to be
-mostly stable while we work toward a general availability release; however,
-complete stability is not guaranteed. We will address issues and requests
-against beta libraries with a high priority.
 
 
 
