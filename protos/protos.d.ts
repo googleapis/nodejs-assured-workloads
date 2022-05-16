@@ -120,35 +120,35 @@ export namespace google {
                 namespace AssuredWorkloadsService {
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService#createWorkload}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService|createWorkload}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateWorkloadCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService#updateWorkload}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService|updateWorkload}.
                      * @param error Error, if any
                      * @param [response] Workload
                      */
                     type UpdateWorkloadCallback = (error: (Error|null), response?: google.cloud.assuredworkloads.v1.Workload) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService#deleteWorkload}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService|deleteWorkload}.
                      * @param error Error, if any
                      * @param [response] Empty
                      */
                     type DeleteWorkloadCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService#getWorkload}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService|getWorkload}.
                      * @param error Error, if any
                      * @param [response] Workload
                      */
                     type GetWorkloadCallback = (error: (Error|null), response?: google.cloud.assuredworkloads.v1.Workload) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService#listWorkloads}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1.AssuredWorkloadsService|listWorkloads}.
                      * @param error Error, if any
                      * @param [response] ListWorkloadsResponse
                      */
@@ -1564,35 +1564,35 @@ export namespace google {
                 namespace AssuredWorkloadsService {
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService#createWorkload}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService|createWorkload}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateWorkloadCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService#updateWorkload}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService|updateWorkload}.
                      * @param error Error, if any
                      * @param [response] Workload
                      */
                     type UpdateWorkloadCallback = (error: (Error|null), response?: google.cloud.assuredworkloads.v1beta1.Workload) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService#deleteWorkload}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService|deleteWorkload}.
                      * @param error Error, if any
                      * @param [response] Empty
                      */
                     type DeleteWorkloadCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService#getWorkload}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService|getWorkload}.
                      * @param error Error, if any
                      * @param [response] Workload
                      */
                     type GetWorkloadCallback = (error: (Error|null), response?: google.cloud.assuredworkloads.v1beta1.Workload) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService#listWorkloads}.
+                     * Callback as used by {@link google.cloud.assuredworkloads.v1beta1.AssuredWorkloadsService|listWorkloads}.
                      * @param error Error, if any
                      * @param [response] ListWorkloadsResponse
                      */
@@ -5754,6 +5754,9 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
+            /** FieldOptions unverifiedLazy */
+            unverifiedLazy?: (boolean|null);
+
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -5790,6 +5793,9 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
+
+            /** FieldOptions unverifiedLazy. */
+            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -7592,35 +7598,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#listOperations}.
+             * Callback as used by {@link google.longrunning.Operations|listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#getOperation}.
+             * Callback as used by {@link google.longrunning.Operations|getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
