@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/googleapis/nodejs-assured-workloads/compare/v3.0.0...v4.0.0) (2022-06-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* * feat: Removed _v1beta1 suffix from proto file names proto file name is changed from assuredworkloads_v1beta1.proto to assuredworkloads.proto
+
+### Features
+
+* Removed _v1beta1 suffix from proto file names ([#168](https://github.com/googleapis/nodejs-assured-workloads/issues/168)) ([e1ff7cd](https://github.com/googleapis/nodejs-assured-workloads/commit/e1ff7cd5272c99a5824a0319ab0aec73135aa667))
+
 ## [3.0.0](https://github.com/googleapis/nodejs-assured-workloads/compare/v2.2.0...v3.0.0) (2022-05-19)
 
 
