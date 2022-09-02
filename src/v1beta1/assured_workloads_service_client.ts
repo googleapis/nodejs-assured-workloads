@@ -796,8 +796,8 @@ export class AssuredWorkloadsServiceClient {
     return this.innerApiCalls.getWorkload(request, options, callback);
   }
   /**
-   * A request to analyze a hypothetical move of a source project or
-   * project-based workload to a target (destination) folder-based workload.
+   * Analyze if the source Assured Workloads can be moved to the target Assured
+   * Workload
    *
    * @param {Object} request
    *   The request object that will be sent.
